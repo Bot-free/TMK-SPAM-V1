@@ -27,7 +27,7 @@ def encrypt_message(key, iv, plaintext):
 
 # دالة جلب التوكينات - تصحيح: دالة عادية
 def fetch_tokens():
-    token_url = 'https://tmk-token-spam-33.vercel.app/api/token'
+    token_url = 'https://toke-like-v1.vercel.app/api/token'
     response = requests.get(token_url)
     if response.status_code == 200:
         tokens = response.json()
